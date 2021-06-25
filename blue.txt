@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body class="im"><center>
+	<table>
+		
+			<tr>
+				<td><h3><a href="https://www.accuweather.com/en/in/indore/204411/weather-forecast/204411">Forecast</h3>
+					</td>
+			</tr>
+			<tr><td><h1> <font color ="orange"> Welcome Rain in Indore </font></h1></td></tr>
+			
+		
+	</table>
+
+
+</center>
+</body>
+</html>
