@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table width="100%" border="0">
+		<tr>
+			<td width="90%"></td>
+			<td rowspan="2">
+				<h1 align="Right">
+					<h1 align="Right">
+				  <img src="logoRays.png" height="100">
+			</h1>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h3>Hi,Guest</h3>
+		</td>
+	</tr>
+	  <tr>
+           <td colspan="2">
+                <a href="GetMarksheet.html">Get Marksheet</b></a> |
+                <a href="MarksheetMeritList.html">Marksheet Merit
+                    List</b>
+                </a> | <a href="MyProfile.html">MyProfile</b></a> |
+                <a href="forgotPassword.html">Change Password</b></a> |
+                <a href="NotFound.html">Java Doc</b></a> |
+                <a href="AddMarksheet.html">Add
+                    Marksheet</b></a> | <a href="MarksheetList.html">Marksheet List</b></a> |
+                <a href="AddUser.html">Add User</b></a> | <a href="AddUserList.html">User
+                    List</b></a> | <a href="AddCollege.html">Add College</b></a> | <a href="AddCollegeList.html">College
+                    List</b></a> | <a href="AddStudent.html">Add Student</b></a> | <a href="AddStudentList.html">Student List</b></a> | <a href="AddRole.html">Add
+                    Role</b></a> | <a href="RoleList.html">Role
+                    List</b></a> |<a href="Addsubject.html">Add Subject</b></a> |<a href="AddCourse.html">Add Course</b></a> |<a href="Subjectlist.html">Subject List</b></a> |<a href="Courselist.html">Course List</b></a> |<a href="AddFaculty.html">Add Faculty</b></a> |<a href="AddTimetable.html">Add Timetable</b></a> |<a href="Facultylist.html">Faculty List</b></a> |<a href="TimetableList.html">Timetable List</b></a> |
+            </td>
+        </tr>
+</table>
+		<hr>
+		<form action="index.html">
+			<center>
+				<h1>ADD Timetable</h1>
+				<p class="success">
+				Timetable Added  successfully</p>
+				<p class="errorbig">
+				Timetable is not added</p>
+				<table>
+					<tr>
+						<th>Course*</th>
+						<td><select >
+								<option> Java</option>
+								<option> php</option>
+								<option>python</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Subject*</th>
+						<td><select >
+								<option>Core Java</option>
+								<option>Core php</option>
+								<option>Core python</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Exam date*</th>
+						<td><input type="date" name="date">
+							<font color="red">Exam date is required</font>
+						</td>
+					</tr>
+					<tr>
+						<th>Exam time*</th>
+						<td><select >
+								<option>12pm - 1pm</option>
+								<option> 2pm - 3pm</option>
+								<option> 3pm - 4pm</option>
+								
+							
+							</select>
+						</td>
+					</tr>
+					</tr>
+						<tr>
+						<th>Semester</th>
+						<td>
+							<select >
+								<option>I</option>
+								<option>II</option>
+								<option>III</option>
+								<option>IV</option>
+							
+							</select>
+						</td>
+					</tr>
+	
+					
+                    <tr align="right"><td><input type="submit" name="Save" value="Save"></td>
+                    <td><input type="submit" name="cancel" value="cancel"></td></tr>
+				</table>
+			</center>
+<hr>
+<center>
+	<h3>(c) copyrights </h3>
+</center>
+	
+
+</body>
+</html>
