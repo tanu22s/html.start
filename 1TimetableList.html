@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ORS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="height:40px ; background-color:#007bff;  "> 
+    <div class="container-fluid"  class="collapse navbar-collapse"  id="navbarSupportedContent">​
+  <img src="logoRays.png" height="25" style="margin-top: 0.4%" align="left" >
+    <div class="navbar-header"> 
+    <a class="navbar-brand h3 ml-4" style="margin-top:7%; " href="#"><STRONG>ORS</STRONG></a>
+    </div>​
+ 
+
+<ul class="nav navbar-nav mr-auto" style="margin-top:0%; ">
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="MyProfile.html" style="color:Black; "><STRONG>Home</STRONG><span class="caret"></span></a></li>​
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black "> <STRONG>Marksheet </STRONG><span class="caret"></span></a>
+<ul class="dropdown-menu">​
+<li><a href="1AddMarksheet.html">Add Marksheet</a></li>​
+<li><a href="1Marksheetmeritlist.html">Marksheet merit list</a></li>​
+<li><a href="1GetMarksheet.html">Get Marksheet</a></li>​
+<li><a href="1Marksheetlist.html">Marksheet list</a></li>​
+</ul></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black "><STRONG>User </STRONG><span class="caret"></span></a>
+  <ul class="dropdown-menu">​
+    <li><a href="1AddUser.html">Add User</a></li>​
+    <li><a href="1AddUserList.html">Add User List</a></li>​
+  </ul></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false"data-toggle="dropdown" href="#" style="color:Black"><STRONG>College </STRONG><span class="caret"></span></a>
+   <ul class="dropdown-menu">​
+   <li><a href="1AddCollege.html">Add College</a></li>​
+   <li><a href="1AddCollegeList.html">Add College list</a></li>​
+
+  </ul></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black "><STRONG>Student</STRONG><span class="caret"></span></a>
+   <ul class="dropdown-menu">​
+    <li><a href="1AddStudent.html">AddStudent</a></li>​
+    <li><a href="1AddStudentList.html">AddStudentList</a></li>​
+  </ul></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black "><STRONG>Course</STRONG><span class="caret"></span></a>
+   <ul class="dropdown-menu">​
+  <li><a href="1AddCourse.html">Add Course</a></li>​
+  <li><a href="Courselist.html">Add Course list</a></li>​
+   </ul></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black "><STRONG>Role </STRONG><span class="caret"></span></a>
+   <ul class="dropdown-menu">​
+    <li><a href="1AddRole.html">Add Role</a></li>​
+    <li><a href="1RoleList.html">Role list</a></li>​
+  </ul></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false"data-toggle="dropdown" href="#" style="color:Black"><STRONG>Subject </STRONG><span class="caret"></span></a>
+   <ul class="dropdown-menu">​
+   <li><a href="1AddSubject.html">Add Subject</a></li>​
+   <li><a href="1Subjectlist.html">Add Subject list</a></li>​
+  </ul></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black "><STRONG>TimeTable </STRONG><span class="caret"></span></a>
+   <ul class="dropdown-menu">​
+    <li><a href="1AddTimeTable.html">Add Table</a></li>​
+    <li><a href="1TimetableList.html"> Add Table list</a></li>​
+  </ul></li>
+<li class="nav-item dropdown" ><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black "><STRONG>Faculty</STRONG> <span class="caret"></span></a>
+   <ul class="dropdown-menu">​
+    <li><a href="1AddFaculty.html">Add Faculty</a></li>​
+    <li><a href="1Facultylist.html">Add Faculty list</a></li>​
+  </ul></li>
+<li  class="nav-item dropdown" ><a class="nav-link dropdown-toggle "  id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" href="#" style="color:Black"><STRONG>Java Doc</STRONG><span class="caret"></span></a></li>​
+
+ </ul>​
+ <div>
+                <ul class=" nav navbar-nav navbar-right" style="margin-top: -1.5%">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:Black;">
+                            Welcome Pavi kumari<span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="1Myprofile.html">MyProfile</b></a><br>
+                            <a class="dropdown-item" href="1Changepassword.html">Change Password</b></a><br>
+                            <a class="dropdown-item" href="Iindex.html">Logout</b></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+</div>​
+</nav>
+    <div class="container_fluid m-4">
+        <div class="row border-bottom">
+            <div class="col">
+                <h4 class="my-1">Timetable List</h4>
+            </div>
+            <div class="col">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end my-1">
+                        <li class="page-item">
+                            <button class="btn btn-outline-primary btn-sm">Page</button>
+                        </li>
+                        <li class="page-item">
+                            <select class="form-control form-control-sm text-primary border-primary">
+                                <option>1</option>
+                                <option>2</option>        
+                                <option>3</option>                                     
+                            </select>
+                        </li>
+                        <li class="page-item">
+                            <button class="btn btn-outline-primary btn-sm" "><i
+                                    class="fas fa-angle-double-left "></i></button>
+                        </li>
+                        <li class="page-item ">
+                            <button class="btn btn-outline-primary btn-sm " ><i
+                                    class="fas fa-angle-double-right "></i></button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <form class="form-inline my-2 ">
+             <label for="name " class="ml-sm-2 ">Semester </label>
+            <input type="text " name="name " id="name " class="form-control form-control-sm ml-2 " placeholder="Semester " [(ngModel)]="form.searchParams.name ">
+        
+            <button onclick="search() " class="btn btn-outline-primary btn-sm ml-2 "><i class="fa fa-search-plus "></i>
+                Search
+            </button>
+        </form>
+        <div class="table-responsive ">
+            <table class="table table-sm table-striped my-1 ">
+                <thead>
+                    <tr>
+                        <th>Select</th>
+                        <th>ID</th>
+                       <th>Course name </th>
+                <th>Subject name</th>
+                <th>Exam date</th>
+                <th>Exam time</th>
+                <th>Semester</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>1</td>
+                       <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " />
+                        </td>
+                        <td>2</td>
+                        <td>Python</td>
+                <td>Core python</td>
+                <td>24-10-2021</td>
+                <td>12:00 pm to 2:00 pm</td>
+                <td>II</td>
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>3</td>
+                       <td>PHP</td>
+                <td>Core php</td>
+                <td>24-10-2021</td>
+                <td>12:00pm to 2:00pm</td>
+                <td>I</td>
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>4</td>
+                       
+                <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>5</td>
+                       
+                <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>6</td>
+                     <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>7</td>
+                       <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>8</td>
+                         <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>9</td>
+                     
+                <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td width="50px ">
+                            <input type="checkbox" class="form-control form-control-sm " id="ids " placeholder="ids ">
+                        </td>
+                        <td>10</td>
+                        <td>Java</td>
+                <td> Core java</td>
+                <td>23-10-2021</td>
+                <td>9:00 am to 12:00 pm</td>
+                <td>I</td>
+                        <td align="right ">
+                            <div class="row ">
+                                <a href="Marksheet.html?id=1 " class="btn btn-outline-success btn-sm ">
+                                    <i class="fa fa-edit "></i>Edit
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <div class="row border-bottom ">
+
+                <div class="col ">
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end my-1 ">
+                            <li class="page-item ">
+                                <button class="btn btn-outline-primary btn-sm ">Page</button>
+                            </li>
+                            <li class="page-item ">
+                                <select class="form-control form-control-sm text-primary border-primary ">
+                                    <option>1</option>
+                                    <option>2</option>        
+                                    <option>3</option>                                     
+                                </select>
+                            </li>
+                            <li class="page-item ">
+                                <button class="btn btn-outline-primary btn-sm " "><i class="fas fa-angle-double-left "></i></button>
+                        </li>
+                        <li class="page-item ">
+                            <button class="btn btn-outline-primary btn-sm "><i
+                                        class="fas fa-angle-double-right "></i></button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <p class="text-center">© 2017, Rays Technologies, SunilOS Infotech Pvt Ltd. </p>
+    </div>
+    </div>
+</body>
+
+</html>
